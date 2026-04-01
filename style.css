@@ -1,0 +1,351 @@
+
+.box{
+  display: flex;
+  flex-direction: row;
+  width: 20vw;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 2cqw;
+}
+
+.b2{
+  width: 8vw;
+}
+
+.box img{
+  width: 8vw;
+  height: 7vw;
+}
+
+
+body{
+
+  cursor: default;
+}
+.container {
+	display: flex;
+	/*background-color: orange;*/
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.cv3{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.li{
+	display: flex;	
+  background-color: LavenderBlush;
+	flex-wrap: nowrap;
+  align-items: center;
+  padding-left: 1cqw;
+}
+
+.ct{
+	justify-content: space-between;
+	width: 100%;
+}
+.titulo{
+	width: 3vw;
+  height: 3vw;
+  border-radius: 0.5cqw 0 0 0.5cqw;
+	background-color: blue;
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.ef{
+	width: 14vw;
+  background: linear-gradient(0deg, rgba(240,128,128,1) 0%, rgba(220,20,60,1) 100%);
+	text-align: center;
+border-radius: 1cqw 1cqw 0 0;
+padding: 0.5cqw 1cqw 0cqw 1cqw;
+}
+.ef2{
+
+  width: 8.6vw;
+}
+
+
+.t1{
+
+background-color: LavenderBlush;
+border-radius: 5px 5px 0 0;
+width: 72vw;
+border-radius: 1cqw 1cqw 0 0;
+padding: 0.5cqw 1cqw 0cqw 1cqw;
+color: black;
+}
+
+.t12{
+  
+width: 77.5vw;
+}
+
+.cv1 {
+	background-color: green;
+	width: 30vh;
+	height: 4vw;
+}
+.cv2{
+	display: flex;
+	background-color: RED;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 30vh;
+	height: 4vw;
+}
+.cv2 div{
+	border-style: solid;
+}
+
+.vertical{
+  display: inline-block;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+
+
+body {
+	padding: 0;
+	margin: calc(1vh) calc(1vh);
+}
+
+.box {
+
+}
+
+
+.c1 {
+	height: 20vh;
+  justify-content: space-around;
+
+}
+
+.c2 {
+	height: 48vh;
+	/*background-color: yellow;*/
+	flex-direction: column;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2cqw;
+  color: #fff;
+
+}
+
+.c3{
+
+  padding: 0px 5vw;
+}
+
+.c3 .icon{
+	width: 7.5vw;
+	height: 30vh;
+	justify-content:center;
+}
+
+.c3 img{
+	width: 7.5vw;
+}
+
+.entrada{
+  color: green;
+  font-family: 'Anton', sans-serif;  
+  font-weight: bold;
+  text-shadow: -1px 1px 2px black;
+}
+
+
+.saida{
+color: red;
+  font-family: 'Anton', sans-serif;  
+  font-weight: bold;
+  text-shadow: -1px 1px 2px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button {
+  margin: 0.2vw;
+}
+.custom-btn {
+  width: 5vw;
+  height: 3vw;
+  color: #fff;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5cqw;
+}
+
+
+
+
+/* 7 */
+.btn-7 {
+background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251,75,2,1) 100%);
+  padding: 0;
+  border: none;
+}
+.btn-7 span {
+  position: relative;
+  display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.btn-7:before,
+.btn-7:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: rgba(251,75,2,1);
+  transition: all 0.3s ease;
+}
+
+.bef:before,
+.bef:after {
+  background: rgba(30,144,255,1);
+
+}
+
+.bem:before,
+.bem:after {
+  background: rgba(0,250,154,1);
+
+}
+
+.btn-7:before{
+   height: 0%;
+   width: 2px;
+}
+.btn-7:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-7:hover{
+  color: rgba(251,75,2,1);
+  background: transparent;
+}
+
+
+.bem:hover{
+  color: rgba(0,250,154,1);
+}
+
+
+.bef:hover{
+  color: rgba(30,144,255,1);
+}
+
+
+
+
+
+
+
+
+.btn-7:hover:before {
+  height: 100%;
+}
+.btn-7:hover:after {
+  width: 100%;
+}
+.btn-7 span:before,
+.btn-7 span:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: rgba(251,75,2,1);
+  transition: all 0.3s ease;
+}
+
+.bef span:before,
+.bef span:after {
+
+  background: rgba(30,144,255,1);
+
+}
+.bem span:before,
+.bem span:after {
+
+  background: rgba(0,250,154,1);
+
+}
+
+
+
+
+
+
+.btn-7 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-7 span:after {
+  height: 2px;
+  width: 0%;
+}
+.btn-7 span:hover:before {
+  height: 100%;
+}
+.btn-7 span:hover:after {
+  width: 100%;
+}
+
+
+
+
+.bef{
+  background: linear-gradient(0deg, rgba(135,206,250,1) 0%, rgba(30,144,255,1) 100%);
+}
+
+.bedf{
+  background: linear-gradient(0deg, rgba(240,128,128,1) 0%, rgba(220,20,60,1) 100%);
+}
+
+.bem{
+  background: linear-gradient(0deg, rgba(127,255,212,1) 0%, rgba(0,250,154,1) 100%);
+}
+
